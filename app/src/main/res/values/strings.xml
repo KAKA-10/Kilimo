@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Kilimo</string>
+    <string name="kilimo">Kilimo</string>
+    <string name="ktda">Kenya Tea Development Agency</string>
+    <string name="slo">Makers of Quality Teas!!</string>
+    <string name="get_started">Get Started</string>
+    <string name="data"><![CDATA[ K-TEA is a mobile application developed for KTDA to automate the services the organization delivers to its small-scale tea farmers. \n   Due to the notable increase in the number of small-scale tea farmers, the organization aims to improve its service delivery to ensure complete \'customer\' satisfaction.\n   The app aims at:\n   -> Tracking farmer tea-weights monthly and annually to help curb tea-weight falsification and weight reductions.\n   -> Helping farmers with loan applications and repayments.(GREEN-FEDHA LOANS)\n   -> Informing its users (tea-farmers) about Majani Insurance, its payment plans, rates and in registration.\n   -> Creating a module through which tea farmers can apply for farm inputs (fertilisers).\n]]></string>
+    <string name="create_account">Create Account</string>
+    <string name="login">LogIn</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="password">Password</string>
+    <string name="farmer_number">Farmer Number</string>
+    <string name="register">Register</string>
+    <string name="first_name">First Name</string>
+    <string name="email">Email</string>
+    <string name="surname">Surname</string>
+    <string name="last_name">Last Name</string>
+    <string name="telephone_number">Phone Number</string>
+    <string name="id_number">ID NO</string>
+    <string name="tea_center_name">Center</string>
+    <string name="submit">Submit</string>
+    <string name="have_account_log_in">Have an Account.</string>
+    <string name="service">Services</string>
+    <string name="farmer_profile">Profile</string>
+    <string name="greenfedha_loans">Greenfedha  Loans</string>
+    <string name="mbolea_nav">Mbolea</string>
+    <string name="tenders">Tenders</string>
+    <string name="news_and_events">News and Events</string>
+    <string name="sign_out_nav">SignOut</string>
+
+    <string-array name="Tea_Centers">
+        <item> TOMBE </item>
+        <item> CENTER 1 </item>
+        <item> MOKWERERO </item>
+        <item> CHARARA </item>
+        <item> KEMERA </item>
+        <item> IRIANYI </item>
+        <item> ETANDA </item>
+    </string-array>
+
+    <string-array name="loan">
+        <item>Development Loan</item>
+        <item>Emergency Loan</item>
+        <item>Working Capital Loan</item>
+        <item>Salaried Loans</item>
+        <item>Education Loans </item>
+
+    </string-array>
+
+    <string name="greenfedha">Greenland Fedha Limited (GFL) is a non deposit taking micro finance institution, wholly owned by Kenya Tea Development Agency Holdings Limited. GFL mandate is to provide a variety of affordable financial services to the low income households in the teas sub sector. \n Membership to GFL is voluntary. \n
+
+    GFL is a member of the Association of Microfinance Institutions in Kenya.</string>
+    <string name="choose_insurance">Insurance</string>
+    <string name="amount">Amount</string>
+    <string name="tender_name">Tender Name</string>
+    <string name="tender_desc">Tender Description</string>
+
+    <string name="tender_a">Sale and harvest of Mature Eucalyptus Trees</string>
+    <string name="tender_b">Tender for sale of 300 Acres Land in Transmara.</string>
+    <string name="tender_c">Tender for Transportation of bagged fertilizers.</string>
+
+    <string name="desc_a">Tender announcement for Sale and harvest of Mature Eucalyptus Trees at Gitumba farm in Muranga county and at the KTDA farms in Kangaita</string>
+    <string name="desc_b">Tender announcement for Sale of a 300 acres land in Trasmara, Narok county by Tombe Tea factory company. </string>
+    <string name="desc_c">Tender for Transportation of bagged fertilizers.</string>
+
+    <string name="news_1">Tea Growers payment September 2023</string>
+    <string name="news_2">Appreciation message to our customers</string>
+    <string name="news_3">KTDA Foundation,Taylors of Harrogate and partners open up Ndarwetta community spring</string>
+    <string name="news_4">Celebrating World International Tea Day</string>
+    <string name="news_5">KTDA partners with Kenya Forest to Reafforest the Mau</string>
+    <string name="news_6">"Greening Kenya" Tree planting project</string>
+    <string name="news_7">KTDA Foundation opens up Medical camp at Tombe</string>
+    <string name="news_8">KTDA signs KSH 700M deal with PROPARCO</string>
+    <string name="news_9">KTDA to launch mobile app automating services to its small-scale tea farmers</string>
+
+    <string name="desc_1">The second payment (Bonus) disbursement and the September payments will be released to farmer"s banks by October 13TH </string>
+    <string name="desc_2">Appreciation message to our customers and partners. #Happy customer care week</string>
+    <string name="desc_3">KTDA Foundation,Taylors of Harrogate and partners open up Ndarwetta community spring. The project has also led to the setting up of a carwash/motorbike shade and a water trough where animals will drink.</string>
+    <string name="desc_4">Celebrating World International Tea Day. </string>
+    <string name="desc_5">KTDA partners with Kenya Forest to Re-afforest the Mau. In partnership with KFS, 16 KTDA factories embarked on a reafforestation programme of the Mau, a key water tower thats under threat of deforestation.</string>
+    <string name="desc_6">"Greening Kenya" Tree planting project</string>
+    <string name="desc_7">KTDA Foundation opens up Medical camp at Tombe</string>
+    <string name="desc_8">KTDA signs KSH 700M deal with PROPARCO. The amount will be used for the expansion of orthodox lines in four factories: Kimunye, Gitugi,Imenti and Thumaiti.</string>
+    <string name="desc_9">KTDA to launch mobile app automating services to its small-scale tea farmers.</string>
+    <string name="news_heading">News Heading</string>
+    <string name="news_desc">News Desription</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="yesbtn">Yes</string>
+    <string name="cancelbtn">Cancel</string>
+
+</resources>

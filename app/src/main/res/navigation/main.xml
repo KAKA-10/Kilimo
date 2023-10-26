@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background ="@color/black"
+    android:id="@+id/main"
+    app:startDestination="@id/profile">
+
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.kilimo.ProfileFragment"
+        android:label="profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profile_to_news"
+            app:destination="@id/news" />
+        <action
+            android:id="@+id/action_profile_to_loans"
+            app:destination="@id/loans" />
+        <action
+            android:id="@+id/action_profile_to_signout"
+            app:destination="@id/signout" />
+
+
+        <action
+            android:id="@+id/action_profile_to_news2"
+            app:destination="@id/news" />
+        <action
+            android:id="@+id/action_profile_to_loans2"
+            app:destination="@id/loans" />
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/loans"
+        android:name="com.example.kilimo.GreenFedhaFragment"
+        android:label="Greenfedha Loans"
+        tools:layout="@layout/fragment_green_fedha" >
+
+        <action
+            android:id="@+id/action_loans_to_signout"
+            app:destination="@id/signout" />
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/tenders"
+        android:name="com.example.kilimo.TendersFragment"
+        android:label="Tenders"
+        tools:layout="@layout/fragment_tenders" >
+
+        <action
+            android:id="@+id/action_tenders_to_profile"
+            app:destination="@id/profile" />
+    </fragment>
+    <fragment
+        android:id="@+id/news"
+        android:name="com.example.kilimo.NewsFragment"
+        android:label="News"
+        tools:layout="@layout/news_fragment" >
+        <action
+            android:id="@+id/action_setting_to_profile"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/action_setting_to_"
+            app:destination="@id/loans" />
+
+        <action
+            android:id="@+id/action_setting_to_loans"
+            app:destination="@id/loans" />
+
+        <action
+            android:id="@+id/action_setting_to_signout"
+            app:destination="@id/signout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/signout"
+        android:name="com.example.kilimo.SignOutFragment"
+        android:label="Sigh Out"
+        tools:layout="@layout/fragment_sign_out" >
+
+
+    </fragment>
+</navigation>
