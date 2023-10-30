@@ -50,4 +50,7 @@ public class User {
     public int getPhone_Number() {
         return phone_number;
     }
+
+    public void setFarm_number(String farm_number) {
+    }
 }
